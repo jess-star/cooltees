@@ -1,0 +1,10 @@
+:root{
+    --white: rgb(241, 241, 241); 
+    --lightgrey: rgb(212, 212, 212); 
+    --grey: rgb(128, 126, 126);
+    --darkgrey: rgba(75, 79, 88, 0.562);
+    --black: rgba(0, 3, 17, 0.925);
+    --size1: 14px;
+    --size2: 12px;
+    --size3: 10px;
+}

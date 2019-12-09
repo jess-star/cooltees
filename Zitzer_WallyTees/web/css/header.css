@@ -1,0 +1,96 @@
+.header {
+    background-color: var(--lightgrey);
+    min-height: 100px;
+  }
+  
+  .navigation1, .navigation2 {
+    flex-grow: 1;
+    position: relative;
+  } 
+  
+  .navigation1 a, .navigation2 a {
+    text-decoration: none;
+    padding: 10px;
+    display: inline-block;
+  }
+  
+  .navigation1 {
+    text-align: left;
+    padding-top: 30px;
+    padding-left: 5%; 
+    max-width: fit-content;
+   
+  }
+  
+
+  .toggle {
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu.visible {
+  transform: translateX(0);
+}
+
+.menu {
+  position: fixed;
+  right: 0;
+  left: 0;
+  top: 0;
+  background-color: black;
+  padding: 1rem 2rem;
+  transform: translateX(-100%);
+  transition: transform .6s;
+  z-index: 3;
+  text-align: center;
+}
+
+.menu a {
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.menu ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.menu li{
+  margin-bottom: 1rem;
+  border-bottom: 1px solid white;
+}
+  .navigation2 {
+    text-align: center;
+    padding-top: 30px;
+    max-width: fit-content;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  
+  .cart1 { 
+   top: 0px;
+   position: absolute;
+   right: 20%;
+   display: block;
+   width: 50px;
+  }
+  
+  .cart2 {
+    top: 5px;
+    position: absolute;
+    right: 10%;
+    max-width: 75px;
+  }
+  
+  .logo1 {
+    top: 20px;
+    position: absolute;
+    padding-left: 38%;
+  }
+
+  .logo3 {
+    top: 5px;
+    position: relative;
+    padding-left: 45%;
+  }

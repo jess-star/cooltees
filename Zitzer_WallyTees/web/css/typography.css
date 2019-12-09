@@ -1,0 +1,26 @@
+body {
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.navigation1, .navigation2, .footertext {
+    font-size: var(--size3);
+}
+
+.navigation1 a, .navigation2 a{
+    color: var(--grey);
+}
+
+.box1 {
+    font-size: var(--size1);
+    color: var(--white);
+}
+
+.box2 {
+    color: var(--white);
+    font-size: var(--size2);
+}
+
+.footertext {
+    color: var(--lightgrey);
+  }

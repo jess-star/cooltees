@@ -1,0 +1,19 @@
+/* Base */
+
+* {
+  box-sizing: border-box;
+}
+
+/* General */
+
+body {
+  background-color: var(--lightgrey);
+}
+
+img {
+  max-width: 100%;
+}
+
+
+
+/* … */

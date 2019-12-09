@@ -1,0 +1,38 @@
+@media (max-width: 850px) {
+    .footer {
+      display: block;
+      align-self: center;
+      padding-left: 40%;
+    }
+    .row {
+      display: block;
+      margin-right: auto;
+      margin-left: auto;
+      width: 50%;
+    }
+    .navigation1 {
+      display: none;
+    }
+    .logo1 {
+      display: none;
+    }
+    .cart1 {
+      display: none;
+    }
+  }
+
+  @media (min-width: 850px) {
+    
+    .menu {
+      display: none;
+    }
+    .toggle {
+      display: none;
+    }
+    .logo3 {
+      display: none;
+    }
+    .cart2 {
+      display: none;
+    }
+  }
